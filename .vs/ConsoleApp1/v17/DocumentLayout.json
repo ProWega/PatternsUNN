@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\simplematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\simplematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\simplevector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\simplevector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\somematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\somematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\sparsevector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\sparsevector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\ivector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\ivector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\sparsematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\sparsematrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\imatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\imatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\admin\\source\\repos\\patterns\\sr1\\consoleapp1\\consoleapp1\\matrixstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84538D1-FCFB-4BB9-9E22-CF5AB824B8CD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\matrixstatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MatrixStatistics.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\MatrixStatistics.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\MatrixStatistics.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\MatrixStatistics.cs",
+              "RelativeToolTip": "ConsoleApp1\\MatrixStatistics.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAUwCQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:58:34.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SparseMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SparseMatrix.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SparseMatrix.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SparseMatrix.cs",
+              "RelativeToolTip": "ConsoleApp1\\SparseMatrix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:46:26.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SimpleMatrix.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SimpleMatrix.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SimpleMatrix.cs",
+              "RelativeToolTip": "ConsoleApp1\\SimpleMatrix.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIAhwBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T05:44:11.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SomeMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SomeMatrix.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SomeMatrix.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SomeMatrix.cs",
+              "RelativeToolTip": "ConsoleApp1\\SomeMatrix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T19:37:55.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SparseVector.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SparseVector.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SparseVector.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SparseVector.cs",
+              "RelativeToolTip": "ConsoleApp1\\SparseVector.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAEAwwDcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:58:43.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleVector.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SimpleVector.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\SimpleVector.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\SimpleVector.cs",
+              "RelativeToolTip": "ConsoleApp1\\SimpleVector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T13:56:51.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\IMatrix.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\IMatrix.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\IMatrix.cs",
+              "RelativeToolTip": "ConsoleApp1\\IMatrix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T13:54:10.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVector.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\IVector.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\IVector.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\IVector.cs",
+              "RelativeToolTip": "ConsoleApp1\\IVector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T13:52:14.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Patterns\\SR1\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAMA9wDwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T13:45:52.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
