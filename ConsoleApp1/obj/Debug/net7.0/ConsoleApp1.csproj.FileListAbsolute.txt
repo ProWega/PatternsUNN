@@ -12,3 +12,4 @@ C:\Users\Admin\source\repos\Patterns\SR1\ConsoleApp1\ConsoleApp1\obj\Debug\net7.
 C:\Users\Admin\source\repos\Patterns\SR1\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
 C:\Users\Admin\source\repos\Patterns\SR1\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Patterns\SR1\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
+C:\Users\Admin\source\repos\Patterns\SR1\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.sourcelink.json

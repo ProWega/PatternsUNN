@@ -10,48 +10,32 @@ namespace ConsoleApp1
     // Реализация разреженного вектора
     public class SparseVector : IVector
     {
-        private Dictionary<int, double> elements_ = new Dictionary<int, double>();
+        private readonly Dictionary<int, double> _components;
         private readonly int _size;
 
-        public int Size => _size;
-
-        public SparseVector(double[] elements)
+        public SparseVector(int size)
         {
-            _size = elements.Length;
-            for (int i = 0; i < elements.Length; i++)
-            {
-                if (elements[i] != 0)
-                {
-                    elements_.Add(i, elements[i]);
-                }
-            }
+            _components = new Dictionary<int, double>();
+            _size = size;
         }
 
-        public double GetElement(int index)
+        public double GetValue(int index)
         {
-            return elements_.ContainsKey(index) ? elements_[index] : 0.0;
+            return _components.ContainsKey(index) ? _components[index] : 0.0;
         }
 
-        public void SetElement(int index, double value)
+        public void SetValue(int index, double value)
         {
-            if (value != 0)
+            if (value != 0.0)
             {
-                elements_[index] = value;
+                _components[index] = value;
             }
             else
             {
-                elements_.Remove(index);
+                _components.Remove(index);
             }
         }
 
-        public void Read()
-        {
-            for (int i = 0; i < _size; i++)
-            {
-                // Форматированный вывод с двумя знаками после запятой и шириной 8 символов
-                Console.Write($"{GetElement(i),8:F2}");
-            }
-            Console.WriteLine();
-        }
+        public int Dimension => _size;
     }
 }

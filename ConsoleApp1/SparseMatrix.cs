@@ -6,55 +6,41 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class SparseMatrix : SomeMatrix
+    public class SparseMatrix : SomeMatrix
     {
-        private List<SparseVector> _elements = new List<SparseVector>();
-        public override int Rows_count { get; }
-        public override int Columns_count { get; }
+        private readonly double _sparsity;
 
-        public override List<IVector> Elements => new List<IVector>(_elements);
-
-        public SparseMatrix(int rows, int columns)
+        public SparseMatrix(int rows, int columns, double sparsity) : base(rows, columns)
         {
-            Rows_count = rows;
-            Columns_count = columns;
+            _sparsity = sparsity;
+        }
+
+        protected override IVector[] InitializeVectors(int rows, int columns)
+        {
+            IVector[] vectors = new IVector[rows];
             for (int i = 0; i < rows; i++)
             {
-                _elements.Add(new SparseVector(new double[columns]));
+                vectors[i] = new SparseVector(columns);
             }
+            return vectors;
         }
 
-        // Метод для вывода матрицы с красивым форматированием
-        public override void Read()
+        // Метод для заполнения матрицы с коэффициентом разреженности
+        public void PopulateWithSparsity(double maxValue)
         {
-            Console.WriteLine("Элементы разреженной матрицы:");
-            foreach (var row in _elements)
+            Random random = new Random();
+
+            for (int i = 0; i < _rows; i++)
             {
-                for (int i = 0; i < row.Size; i++)
+                for (int j = 0; j < _columns; j++)
                 {
-                    // Форматированный вывод с двумя знаками после запятой и шириной 8 символов
-                    Console.Write($"{row.GetElement(i),8:F2}");
+                    double chance = random.NextDouble(); // Шанс на добавление значения
+                    if (chance < _sparsity)
+                    {
+                        double value = Math.Round(random.NextDouble() * maxValue, 2);
+                        SetValue(i, j, value);  // Устанавливаем ненулевое значение
+                    }
                 }
-                Console.WriteLine(); // Новая строка для каждой строки матрицы
-            }
-        }
-
-        // Метод для записи данных в матрицу
-        public override void Write(List<IVector> vectors)
-        {
-            if (vectors.Count != Rows_count)
-                throw new ArgumentException("Количество векторов не совпадает с количеством строк матрицы.");
-
-            foreach (var vector in vectors)
-            {
-                if (vector.Size != Columns_count)
-                    throw new ArgumentException("Размер вектора не совпадает с количеством столбцов матрицы.");
-            }
-
-            _elements.Clear();
-            foreach (SparseVector vector in vectors)
-            {
-                _elements.Add(vector);
             }
         }
     }

@@ -7,13 +7,48 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     // Абстрактный класс для матриц
-    abstract class SomeMatrix : IMatrix
+    public abstract class SomeMatrix : IMatrix
     {
-        public abstract int Rows_count { get; }
-        public abstract int Columns_count { get; }
-        public abstract List<IVector> Elements { get; }
+        protected IVector[] _matrix;
+        protected int _rows;
+        protected int _columns;
 
-        public abstract void Read();
-        public abstract void Write(List<IVector> vectors);
+        public SomeMatrix(int rows, int columns)
+        {
+            _rows = rows;
+            _columns = columns;
+            _matrix = InitializeVectors(rows, columns); // Инициализация должна быть в наследниках
+        }
+
+        // Абстрактный метод для инициализации векторов
+        protected abstract IVector[] InitializeVectors(int rows, int columns);
+
+        public double GetValue(int row, int col)
+        {
+            return _matrix[row].GetValue(col);
+        }
+
+        public void SetValue(int row, int col, double value)
+        {
+            _matrix[row].SetValue(col, value);
+        }
+
+        public int Rows => _rows;
+        public int Columns => _columns;
+
+        // Метод для вывода матрицы
+        public void PrintMatrix()
+        {
+            for (int i = 0; i < _rows; i++)
+            {
+                for (int j = 0; j < _columns; j++)
+                {
+                    Console.Write($"{GetValue(i, j),8:F2} ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+        }
     }
+
 }

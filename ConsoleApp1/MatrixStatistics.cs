@@ -6,55 +6,41 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class MatrixStatistics
+    // Класс для статистики матрицы
+    public class MatrixStatistics
     {
-        // Свойства для хранения статистики
-        public double Sum { get; private set; }
-        public double Average { get; private set; }
-        public double MaxValue { get; private set; }
-        public int NonZeroCount { get; private set; }
+        private double _sum;
+        private double _maxValue;
+        private int _nonZeroCount;
 
-        // Параметризованный конструктор принимает матрицу
         public MatrixStatistics(IMatrix matrix)
         {
-            if (matrix == null)
-                throw new ArgumentNullException(nameof(matrix), "Матрица не может быть null.");
-
+            _sum = 0;
+            _maxValue = double.MinValue;
+            _nonZeroCount = 0;
             CalculateStatistics(matrix);
         }
 
-        // Метод для вычисления статистики матрицы
         private void CalculateStatistics(IMatrix matrix)
         {
-            double sum = 0;
-            double maxValue = double.MinValue;
-            int nonZeroCount = 0;
-            int totalElements = matrix.Rows_count * matrix.Columns_count;
-
-            // Проходим по всем элементам матрицы
-            for (int row = 0; row < matrix.Rows_count; row++)
+            for (int i = 0; i < matrix.Rows; i++)
             {
-                IVector vector = matrix.Elements[row];
-                for (int col = 0; col < matrix.Columns_count; col++)
+                for (int j = 0; j < matrix.Columns; j++)
                 {
-                    double value = vector.GetElement(col);
-                    sum += value;
-                    if (value > maxValue)
-                    {
-                        maxValue = value;
-                    }
+                    double value = matrix.GetValue(i, j);
                     if (value != 0)
                     {
-                        nonZeroCount++;
+                        _sum += value;
+                        _maxValue = Math.Max(_maxValue, value);
+                        _nonZeroCount++;
                     }
                 }
             }
-
-            // Устанавливаем свойства статистики
-            Sum = sum;
-            MaxValue = maxValue;
-            Average = totalElements > 0 ? sum / totalElements : 0;
-            NonZeroCount = nonZeroCount;
         }
+
+        public double Sum => _sum;
+        public double Average => _nonZeroCount > 0 ? _sum / _nonZeroCount : 0;
+        public double MaxValue => _maxValue;
+        public int NonZeroCount => _nonZeroCount;
     }
 }

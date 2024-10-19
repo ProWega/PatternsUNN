@@ -9,9 +9,8 @@ namespace ConsoleApp1
     // Интерфейс для векторов
     public interface IVector
     {
-        int Size { get; }
-        double GetElement(int index);
-        void SetElement(int index, double value);
-        void Read();
+        double GetValue(int index);
+        void SetValue(int index, double value);
+        int Dimension { get; }
     }
 }
